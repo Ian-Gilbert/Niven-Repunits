@@ -30,7 +30,7 @@ newprimes = []
 
 for p in primerange(start, end):
     e_p = n_order(10, p)
-    if checkPrimes(e_p, factorint(e_p).keys()):
+    if check_primes(e_p, factorint(e_p).keys()):
         newprimes.append(p)
 
 print("")
